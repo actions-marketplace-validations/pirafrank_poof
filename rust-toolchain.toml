@@ -1,6 +1,6 @@
 [toolchain]
-channel = "1.92.0"
-components = [ "rustfmt", "clippy", "llvm-tools-preview" ]
+channel = "1.93.1"
+components = [ "rustfmt", "clippy", "llvm-tools-preview", "rust-analyzer" ]
 
 [target]
 targets = [

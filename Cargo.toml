@@ -1,14 +1,14 @@
 [package]
 name = "poof"
 authors = ["Francesco Pira (pirafrank)"]
-version = "0.6.1"
+version = "0.6.2"
 edition = "2021"
 repository = "https://github.com/pirafrank/poof"
 documentation = "https://github.com/pirafrank/poof/blob/main/README.md"
 description = "Easy to use zero-config, zero-install, zero-dependencies manager of pre-built software that works like magic"
 license = "MIT"
 readme = "README.md"
-rust-version = "1.88"
+rust-version = "1.93"
 build = "build.rs"
 keywords = ["binary-manager", "portable-tools", "zero-config", "no-install", "userspace"]
 homepage = "https://github.com/pirafrank/poof"
@@ -42,20 +42,20 @@ tar = "0.4"
 flate2 = "1.1"
 xz2 = "0.1"
 bzip2 = "0.6"
-sevenz-rust2 = { version = "0.20" }
-log = "0.4.31"
+sevenz-rust2 = { version = "0.21" }
+log = "0.4.32"
 env_logger = "0.11.10"
-regex = "1.11.1"
+regex = "1.12.4"
 rayon = "1.12.0"
 semver = "1.0.28"
 anyhow = "1.0"
-which = "8.0.2"
+which = "8.0.3"
 zstd = "0.13.3"
 
 [dev-dependencies]
 clap_mangen = "0.3.0"
 tempfile = "3"
-serial_test = "3"
+serial_test = "4"
 predicates = "3.1.4"
 assert_cmd = "2.2.2"
 serde_json = "1.0"
